@@ -12,7 +12,7 @@ import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
 import { MdToolbar } from '@angular2-material/toolbar';
 
 // hooking our example component
-import { ExampleComponent } from './example/example.component'
+import { ExampleComponent } from './example/example.component';
 // so in the above line we import ExampleComponent from the file example.component.ts
 // the file is in the example folder in our current folder (denoted by './')
 // don't worry about the .ts, the compiler knows to look for the file

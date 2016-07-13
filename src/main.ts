@@ -30,9 +30,9 @@ bootstrap(AppComponent, [
   FIREBASE_PROVIDERS,
   // Initialize Firebase app  
   defaultFirebase({
-    apiKey: "<your-key>",
-    authDomain: "<your-project-authdomain>",
-    databaseURL: "<your-database-URL>",
-    storageBucket: "<your-storage-bucket>",
+    apiKey: "AIzaSyCbmPbfVH4cIXc3YPlFIMK5DmIUCVev638",
+    authDomain: "todo-82111.firebaseapp.com",
+    databaseURL: "https://todo-82111.firebaseio.com",
+    storageBucket: "todo-82111.appspot.com",
   })
 ]);

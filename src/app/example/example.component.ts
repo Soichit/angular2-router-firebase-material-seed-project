@@ -28,20 +28,19 @@ export class ExampleComponent implements OnInit {
     // this happens when the window intializes
     // tiny typescript lesson!
     // initialize `list`
-    this.list = [];
-    let dudes = ["Bill", "Bob", "Ben"];
-    // to use a for you need to use the following format
-    for (let dude of dudes) {
-      // the `of` statement is how we do things in TS [NOT IN]
-      this.list.push(dude);
-    }
+    this.providedList = [];
+    
     // here we pull data in with a service
     this.providedList = this.exampleService.getList();
+    
   }
 
   // add to our provided list on click
   buttonClick() {
     this.exampleService.addToList();
+  }
+  dudeButtonClick() {
+    this.exampleService.addDudes();
   }
 
 }
